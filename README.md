@@ -26,3 +26,27 @@ public class Exercise {
 }
 
 ```
+
+А також тестування:
+``` java
+package test;
+import domain.Exercise;
+import java.util.Scanner;
+
+public class TestResult {
+    public static void main(String[] args) {
+        System.out.println("Enter your password: ");
+        Scanner scanner = new Scanner(System.in, "UTF-8");
+        String password = scanner.nextLine();
+        System.out.println("MD5: " + Exercise.getMd5Hash(password));
+    }
+}
+```
+
+#Результати роботи:
+![](https://github.com/ppc-ntu-khpi/methods-Adey4k/blob/master/images/result.jpg "Скрішот результатів")
+
+Порівняння результату з онлайн MD5 генератором:
+![](https://github.com/ppc-ntu-khpi/methods-Adey4k/blob/master/images/comparison.jpg "Онлайн генератор")
+
+Як можемо побачити, все працює чудово!😊
