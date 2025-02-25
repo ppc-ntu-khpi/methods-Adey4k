@@ -1,12 +1,12 @@
-//package test;
-
-//import domain.Exercise;
+package test;
+import domain.Exercise;
+import java.util.Scanner;
 
 public class TestResult {
-
     public static void main(String[] args) {
-
-        int R=10;
-        System.out.println("Area of a circle for R="+R+"m is "+Exercise.Calculate(R)+"m"+'\u00B2');
+        System.out.println("Enter your password: ");
+        Scanner scanner = new Scanner(System.in, "UTF-8");
+        String password = scanner.nextLine();
+        System.out.println("MD5: " + Exercise.getMd5Hash(password));
     }
 }
