@@ -43,7 +43,7 @@ public class TestResult {
 }
 ```
 
-#Результати роботи:
+# Результати роботи:
 ![](https://github.com/ppc-ntu-khpi/methods-Adey4k/blob/master/images/result.jpg "Скрішот результатів")
 
 Порівняння результату з онлайн MD5 генератором:
